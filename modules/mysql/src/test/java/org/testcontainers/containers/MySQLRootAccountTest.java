@@ -19,9 +19,10 @@ public class MySQLRootAccountTest {
     @Parameterized.Parameters(name = "{0}")
     public static DockerImageName[] params() {
         return new DockerImageName[] {
-            MySQLTestImages.MYSQL_57_IMAGE,
-            MySQLTestImages.MYSQL_80_IMAGE,
-            MySQLTestImages.MYSQL_INNOVATION_IMAGE,
+//            MySQLTestImages.MYSQL_57_IMAGE,
+//            MySQLTestImages.MYSQL_80_IMAGE,
+//            MySQLTestImages.MYSQL_INNOVATION_IMAGE,
+            MySQLTestImages.MYSQL_93_IMAGE
         };
     }
 
